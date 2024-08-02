@@ -40,11 +40,11 @@
 
             display-name = "Lower";
             bindings = <
-&bt BT_CLR       &bt BT_SEL 0     &bt BT_SEL 1     &bt BT_SEL 2     &bt BT_SEL 3     &bt BT_SEL 4                       &trans     &trans    &trans    &trans     &trans    &trans
-&trans           &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_DIVIDE    &kp KP_MULTIPLY                    &trans     &trans    &trans    &trans     &trans    &trans
-&trans           &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_SUBTRACT  &kp KP_PLUS                        &kp CARET  &kp AMPS  &kp PIPE  &kp LPAR   &kp RPAR  &kp TILDE
-&kp KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_DOT       &kp KP_ENTER     &trans    &trans  &kp LEFT   &kp DOWN  &kp UP    &kp RIGHT  &trans    &trans
-                                                   &trans           &trans           &trans           &trans    &trans  &trans     &trans    &trans
+&bt BT_CLR  &bt BT_SEL 0     &bt BT_SEL 1     &bt BT_SEL 2     &bt BT_SEL 3     &bt BT_SEL 4                       &trans    &kp MINUS         &kp EQUAL          &trans         &trans  &trans
+&trans      &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_DIVIDE    &kp KP_MULTIPLY                    &trans    &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp BACKSLASH  &trans  &trans
+&trans      &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_SUBTRACT  &kp KP_PLUS                        &trans    &kp SEMICOLON     &kp SQT            &trans         &trans  &trans
+&trans      &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_DOT       &kp KP_ENTER     &trans    &trans  &kp LEFT  &kp DOWN          &kp UP             &kp RIGHT      &trans  &trans
+                                              &kp KP_NUMBER_0  &trans           &trans           &trans    &trans  &trans    &trans            &trans
             >;
         };
 
@@ -58,10 +58,10 @@
 
             display-name = "Raise";
             bindings = <
-&kp F1   &kp F2   &kp F3   &kp F4   &kp F5   &kp F6                     &kp F7    &kp F8    &kp F9        &kp F10          &kp F11  &kp F12
-&kp F13  &kp F14  &kp F15  &kp F16  &kp F17  &kp F18                    &kp F19   &kp F20   &kp F21       &kp F22          &kp F23  &kp F24
-&trans   &trans   &trans   &trans   &trans   &trans                     &trans    &trans    &trans        &trans           &trans   &trans
-&trans   &trans   &trans   &trans   &trans   &trans   &trans    &trans  &kp LEFT  &kp DOWN  &kp UP_ARROW  &kp RIGHT_ARROW  &trans   &trans
+&kp F1   &kp F2   &kp F3   &kp F4   &kp F5   &kp F6                     &kp F7    &kp F8    &kp F9        &kp F10          &kp F11   &kp F12
+&kp F13  &kp F14  &kp F15  &kp F16  &kp F17  &kp F18                    &kp F19   &kp F20   &kp F21       &kp F22          &kp F23   &kp F24
+&trans   &trans   &trans   &trans   &trans   &trans                     &trans    &trans    &kp DELETE    &kp INSERT       &kp HOME  &kp PAGE_UP
+&trans   &trans   &trans   &trans   &trans   &trans   &trans    &trans  &kp LEFT  &kp DOWN  &kp UP_ARROW  &kp RIGHT_ARROW  &kp END   &kp PAGE_DOWN
                            &trans   &trans   &trans   &trans    &trans  &trans    &trans    &trans
             >;
         };
